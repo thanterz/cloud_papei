@@ -5,7 +5,7 @@
   </head>
 
   <body> 
-    <form action="https://mpsp14087.s3.amazonaws.com/" method="post" enctype="multipart/form-data">
+    <form action="http://mpsp14087.s3.amazonaws.com/" method="post" enctype="multipart/form-data">
       <input type="hidden" name="key" value="uploads/${filename}">
       <input type="hidden" name="AWSAccessKeyId" value="AKIAJ544BGTU6SCLOAWA"> 
       <input type="hidden" name="acl" value="private"> 
